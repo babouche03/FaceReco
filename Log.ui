@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame_92">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>231</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame_92{
+background-color:qlineargradient(spread:pad, x1:0, y1:0.25, x2:1, y2:0.886364, stop:0.0681818 rgba(0, 196, 211, 255), stop:1 rgba(234, 125, 255, 255));
+border-radius:20px;
+}
+QPushButton{
+	border:none;
+	font: 16pt &quot;幼圆&quot;;
+	color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+	padding-left:5px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_99">
+      <property name="styleSheet">
+       <string notr="true">color:rgb(255, 255, 255);
+font: 11pt &quot;幼圆&quot;;</string>
+      </property>
+      <property name="text">
+       <string>      单位考勤打卡系统</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_90">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_90">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 11pt &quot;幼圆&quot;;</string>
+         </property>
+         <property name="text">
+          <string>姓名：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Logname"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_93">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLabel" name="label_91">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 11pt &quot;幼圆&quot;;</string>
+         </property>
+         <property name="text">
+          <string>密码：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="logpass"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="logBut">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>1</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>登录</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../.designer/backup/Navigation/profile.ico</normaloff>../../.designer/backup/Navigation/profile.ico</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
